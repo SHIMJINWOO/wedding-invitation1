@@ -1,26 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wedding Invitation</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정용 ♥ 소연 결혼합니다</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nanum Myeongjo', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+        .header {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            font-size: 2rem;
+            color: #d9534f;
+        }
+        .image-section {
+            margin-top: 20px;
+        }
+        .image-section img {
+            width: 90%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .message {
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .message p {
+            line-height: 1.8;
+        }
+        .location {
+            margin: 20px;
+            font-size: 1rem;
+        }
+        .location .place {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .footer {
+            margin: 20px 0;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>You're Invited!</h1>
-    <p class="description">Join us to celebrate our special day!</p>
-    
-    <div class="details">
-      <p><strong>Date:</strong> December 25, 2024</p>
-      <p><strong>Time:</strong> 3:00 PM</p>
-      <p><strong>Location:</strong> Grand Wedding Hall, Seoul</p>
+    <div class="header">
+        <h1>정용 ♥ 소연</h1>
+        <p>결혼합니다</p>
     </div>
-    
-    <div class="rsvp">
-      <p>Please RSVP by December 10, 2024</p>
-      <button onclick="alert('Thank you for your RSVP!')">RSVP Now</button>
+    <div class="image-section">
+        <img src="https://images.theirmood.com/resources/64842/card/P3SbCIlOp6/qYTI3VWT7m.jpg" alt="결혼 사진">
     </div>
-  </div>
+    <div class="message">
+        <p>함께 있을 때 가장 나다운 모습이 되고<br>
+        함께 있을 때 미래를 꿈꾸게 하는 사람을 만나<br>
+        8번째 봄, 결혼합니다.</p>
+        <p>저희의 새로운 시작을<br>
+        함께하시어 축복해 주시면 감사하겠습니다.</p>
+    </div>
+    <div class="location">
+        <div class="place">웨스턴팰리스웨딩 6층 팰리스홀</div>
+        <p>인천 부평구 부평대로278번길 16<br>2025년 3월 8일 토요일 오전 11시 30분</p>
+    </div>
+    <div class="footer">
+        <p>© 2025 정용 & 소연</p>
+    </div>
 </body>
 </html>
